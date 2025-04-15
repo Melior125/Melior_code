@@ -22,7 +22,7 @@ export LD_LIBRARY_PATH=./mcl/lib:$LD_LIBRARY_PATH
 Use the following command to compile:
 
 ```bash
-g++ zkp_for_milp.cpp pcs.cpp timer.cpp -o zkp-milp \
+g++ main.cpp pcs.cpp timer.cpp -o zkp-milp \
     -I./mcl/include -I./head -L./mcl/lib \
     -lmcl -lgmp
 ```
